@@ -8,7 +8,7 @@ package Runner;
 	@RunWith (Cucumber.class)
 	@CucumberOptions(
 			
-	features = "C:\\Users\\Ranjith\\eclipse-workspace\\Dietician\\src\\test\\resources\\features",
+	features = "C:\\Users\\Sangeetha\\eclipse-workspace\\NNDieticianHackathon\\src\\test\\resources\\features",
 	glue = {"stepDefinitions"},
 	// tags = "@blank",
 	dryRun =false,

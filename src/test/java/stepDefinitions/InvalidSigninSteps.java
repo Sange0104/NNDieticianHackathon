@@ -1,10 +1,10 @@
-package StepDefinition;
+package stepDefinitions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import PageObjects.RegistrationPage;
-import PageObjects.SigninPage;
+import pageObjects.RegistrationPage;
+import pageObjects.SigninPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
