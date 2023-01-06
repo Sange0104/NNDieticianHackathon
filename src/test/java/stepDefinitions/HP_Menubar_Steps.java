@@ -40,6 +40,7 @@ public class HP_Menubar_Steps {
 	public void user_should_see_a_logo_image_with_the_company_name_on_the_home_page() {
 		boolean homeLogo = homepg.Validatelogo();
 		Assert.assertTrue(homeLogo);
+		System.out.println("Home logo");
 	}
 
 	@Then("User should see all top menu tabs on the Home page")

@@ -14,7 +14,7 @@ public class listOfScreen {
 	
 	listOfScreenPO program;
 	
-	WebDriver driver = null;
+	WebDriver driver;
 
 	@Given("User is on the browser")
 	public void user_is_on_the_browser() {

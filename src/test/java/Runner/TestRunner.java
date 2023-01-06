@@ -8,15 +8,16 @@ package Runner;
 	@RunWith (Cucumber.class)
 	@CucumberOptions(
 			
-	features = "C:\\Users\\Sangeetha\\eclipse-workspace\\NNDieticianHackathon\\src\\test\\resources\\features",
+	features = "src/test/resources/features/",
 	glue = {"stepDefinitions"},
+		//glue = 	{"Runner","classpath/stepDefinitions"},
 	// tags = "@blank",
 	dryRun =false,
 	monochrome = true,
 
 	plugin = {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 	"html:target/HtmlReports1/report.html",
-	"json:target/JSONReports/report.json",
+	"pretty",	"json:target/JSONReports/report.json",
 	"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 	"junit:target/JUnitReports/report.xml"
 	}
